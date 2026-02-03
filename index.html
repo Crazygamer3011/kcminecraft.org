@@ -4,32 +4,34 @@
     <meta charset="UTF-8">
     <title>KC Minecraft</title>
     <style>
-        /* Base font size: 2× bigger than normal (default 16px → 32px) */
+        /* Base font size */
         html {
-            font-size: 48px;
+            font-size: 42px; 
         }
 
         body {
             text-align: center;
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 2rem; /* adds some padding around edges */
-            background-color: #f0f0f0; /* light background for contrast */
+            padding: 0rem; /* padding around edges */
+            background-color: #f0f0f0; /* light background */
+        }
+
+        /* Consistent spacing for all blocks */
+        h1, .main-site, .server-info {
+            margin: 1rem 0; /* 1rem top & bottom for all */
         }
 
         h1 {
-            font-size: 2.5rem; /* ~80px equivalent at 32px base */
-            margin: 0 0 1rem 0; /* bottom margin only */
+            font-size: 2.5rem; /* ~105px at 42px base */
         }
 
         .main-site {
-            font-size: 1.5rem; /* ~48px equivalent */
-            margin: 1rem 0;
+            font-size: 1.5rem; /* ~63px */
         }
 
         .server-info {
-            font-size: 1rem; /* ~32px equivalent */
-            margin: 1rem 0;
+            font-size: 1rem; /* ~42px */
         }
 
         a {
