@@ -1,18 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>KC Minecraft</title>
+    <style>
+        /* Base font size: 2× bigger than normal (default 16px → 32px) */
+        html {
+            font-size: 48px;
+        }
+
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 2rem; /* adds some padding around edges */
+            background-color: #f0f0f0; /* light background for contrast */
+        }
+
+        h1 {
+            font-size: 2.5rem; /* ~80px equivalent at 32px base */
+            margin: 0 0 1rem 0; /* bottom margin only */
+        }
+
+        .main-site {
+            font-size: 1.5rem; /* ~48px equivalent */
+            margin: 1rem 0;
+        }
+
+        .server-info {
+            font-size: 1rem; /* ~32px equivalent */
+            margin: 1rem 0;
+        }
+
+        a {
+            color: #1a73e8; /* nice blue link color */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <!-- Big title -->
-    <h1 style="font-size: 80px; text-align: center; margin: 0;">KC Minecraft</h1>
+    <h1>KC Minecraft</h1>
 
-    <!-- Normal body text -->
-    <p style="font-size: 300%; text-align: center; margin: 10px 0;">kcminecraft.org</p>
-    <p style="font-size: 100%; text-align: center;">
+    <!-- Main site text -->
+    <p class="main-site">kcminecraft.org</p>
+
+    <!-- Server info -->
+    <p class="server-info">
         Bedrock: kcminecraft.org, Port: 19132<br>
         Java: kcminecraft.org<br>
-	Map: <a href="http://kcminecraft.org:8100/" target="_blank">http://kcminecraft.org:8100/</a>
+        Map: <a href="http://kcminecraft.org:8100/" target="_blank">http://kcminecraft.org:8100/</a>
     </p>
 </body>
 </html>
